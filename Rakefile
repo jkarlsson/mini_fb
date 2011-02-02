@@ -2,7 +2,7 @@
 begin
     require 'jeweler'
     Jeweler::Tasks.new do |gemspec|
-        gemspec.name = "mini_fb"
+        gemspec.name = "jkarlsson-mini_fb"
         gemspec.summary = "Tiny facebook library"
         gemspec.description = "Tiny facebook library"
         gemspec.email = "travis@appoxy.com"
