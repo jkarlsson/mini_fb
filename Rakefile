@@ -4,9 +4,9 @@ begin
     Jeweler::Tasks.new do |gemspec|
         gemspec.name = "jkarlsson-mini_fb"
         gemspec.summary = "Tiny facebook library"
-        gemspec.description = "Tiny facebook library"
+        gemspec.description = "Tiny facebook library. This fork adds video upload support"
         gemspec.email = "travis@appoxy.com"
-        gemspec.homepage = "http://github.com/appoxy/mini_fb"
+        gemspec.homepage = "http://github.com/jkarlsson/mini_fb"
         gemspec.authors = ["Travis Reeder"]
         gemspec.files = FileList['lib/**/*.rb']
         gemspec.add_dependency 'rest-client'
